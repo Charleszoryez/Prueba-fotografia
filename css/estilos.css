@@ -1,11 +1,11 @@
-#contenido{
-  width: 900px;
+.contenido{
+  width: 500px;
 }
 @media (min-width:900px) {
 
 body{
   background-color: black;
-  font-family: Dancing Script
+  font-family: Dancing Script;
 }
 header{
   background-color: #5b7989;
@@ -35,29 +35,63 @@ img{
 }
 #imagen-secundaria{
   background-color: #d5c75f;
-  padding: 5px;
+  padding: 10px;
   display: flex;
   align-items: center;
-  border: 1px;
+  flex-flow: row wrap;
+
 }
+
 .chimbo{
   margin: auto;
   margin-bottom: auto;
   display: block;
-  width: 75% ;
+  width: 60% ;
   height: 5%;
   box-shadow: 2px 0 0 #02010a;
 }
 .imagen2{
-  margin: auto;
   width: 550px;
   height: 350px;
   box-shadow: 2px 0 0 #02010a;
+  margin: 80px;
+
  }
 #Galeria{
   display: flex;
+  flex-flow: row wrap;
+  background-color: #d5c75f;
+}
+#Retratos{
+  display: flex;
+  flex-flow: row wrap;
   background-color: #d5c75f;
 
+}
+.vicuña{
+  width: 475px;
+  height: 250px;
+  padding: 2px;
+  margin: auto;
+}
+.Vicuña1{
+  filter: blur(10px);
+  -webkit-filter: blur(10px)
+}
+.Vicuña2 {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.Vicuña4{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.Vicuña6{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.Vicuña3{
+  filter: sepia(90%);
 }
 .paisajes{
   width: 475px;
