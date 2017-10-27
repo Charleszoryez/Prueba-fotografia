@@ -1,6 +1,13 @@
+@keyframes body  {
+  150%   {top: 150px;}
+  75% {top: -10px}
+  100% {top: 0px;}
+}
 body{
   background-color: black;
   font-family: Dancing Script;
+  animation: body 1s;
+  position: relative;
 }
 header{
   background-color: #5b7989;
