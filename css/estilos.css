@@ -27,7 +27,7 @@ header{
 	text-shadow: 2px 2px #02010a;
 
 }
-header h1{
+header #titulo{
   text-align: left;
   color: white;
   text-shadow: 2px 2px #02010a;
@@ -137,8 +137,7 @@ footer .columna{
 .icon-social{
   width: 25px;
 }
-}
-@media screen (max-width: 900px){
+@media only screen and (max-width: 900px){
 	#Contenido{
 		width: 100%;
 		margin: 0 auto;
@@ -150,8 +149,11 @@ footer .columna{
 		padding-bottom:0 auto;
 
 	}
-	#titulo, #enlaces{
+	header #titulo{
 		width: 100%;
+		text-align: center;
+	}
+	#enlaces{
 		text-align: center;
 	}
 	.imagen-secundaria{
